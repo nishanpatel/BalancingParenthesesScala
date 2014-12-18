@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/balancingparenthesesscala.iml" filepath="$PROJECT_DIR$/.idea/modules/balancingparenthesesscala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/balancingparenthesesscala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/balancingparenthesesscala-build.iml" />
+    </modules>
+  </component>
+</project>
