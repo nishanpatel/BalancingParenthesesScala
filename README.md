@@ -8,14 +8,13 @@ The given input of brackets and parentheses input is considered balanced when:
 
 Here are some examples:
 
-isEverythingBalanced("") == true
-isEverythingBalanced("([{}])") == true
-isEverythingBalanced("[]([{}[]()])") == true
-isEverythingBalanced("[") == false
-isEverythingBalanced("}") == false
-isEverythingBalanced("({)}") == false
-isEverythingBalanced("}{") == false
-isEverythingBalanced("){") == false
+1. isEverythingBalanced("") == true.
+2. isEverythingBalanced("([{}])") == true.
+3. isEverythingBalanced("[") == false.
+4. isEverythingBalanced("}") == false.
+5. isEverythingBalanced("({)}") == false
+6. isEverythingBalanced("}{") == false.
+7. isEverythingBalanced("){") == false.
 
 Tasks:
 
@@ -23,4 +22,4 @@ Implemented a function isEverythingBalanced(text: String): Boolean using,
 1. Using Stack implementation.
 2. Using List Cons Oppration.
 
-NOTE: A solution that uses regular expressions is considered INCORRECT.
+NOTE: A solution dose not uses regular expressions, and use of it is considered INCORRECT.
