@@ -19,7 +19,7 @@ object BalancingParenthesesListCons {
     case x => elem match {
       case ')' | '}' | ']' => x - 1
       case '(' | '{' | '[' => x + 1
-      case _ => x
+      //case _ => x
     }
   }
 }
